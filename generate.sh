@@ -14,6 +14,7 @@ libs=(
     "VMAF:vmaf.sh"
     "WebP:webp.sh"
     "x264:x264.sh"
+    "x265:x265.sh"
 )
 
 for lib in "${libs[@]}"; do
@@ -45,6 +46,7 @@ PKG_CONFIG_PATH="$BUILD_DIR/lib/pkgconfig" ./configure \
   --enable-libfdk-aac \
   --enable-libopus \
   --enable-libx264 \
+  --enable-libx265 \
   --enable-libsvtav1 \
   --enable-libaom \
   --enable-libdav1d \

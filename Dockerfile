@@ -35,6 +35,7 @@ RUN apt -y install \
     libass-dev \
     libzimg-dev \
     libva-dev \
+    libnuma-dev \
     libdav1d-dev && \
     apt clean && \
     rm -rf /var/lib/apt/lists/*
