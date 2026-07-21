@@ -25,5 +25,5 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: release-linux-${{ steps.timestamp.outputs.value }}
+          name: FFbuild-linux-x86_64-${{ steps.timestamp.outputs.value }}
           path: artifacts/
