@@ -1,4 +1,4 @@
-# FFmpeg-Build
+# FFbuild
 
 This repository provides scripts and a Docker container to **build a custom FFmpeg** with support for external libraries.
 
