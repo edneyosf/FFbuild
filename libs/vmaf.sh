@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REPOSITORY="https://github.com/Netflix/vmaf.git"
-BRANCH="v3.2.0"
+BRANCH="v3.2.1"
 
 cd $SOURCES_DIR
 git clone --branch $BRANCH --depth 1 $REPOSITORY

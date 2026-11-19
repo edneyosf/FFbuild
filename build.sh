@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="8.1"
+VERSION="9.0.2"
 GREEN="\e[32m"
 RESET="\e[0m"
 DIR="/ffmpeg"

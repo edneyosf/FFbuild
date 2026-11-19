@@ -1,7 +1,7 @@
 #!/bin/bash
 
-REPOSITORY="https://gitlab.com/AOMediaCodec/SVT-AV1.git"
-BRANCH="v4.2.0"
+REPOSITORY="https://github.com/AOMediaCodec/SVT-AV1.git"
+BRANCH="v4.3.1"
 
 cd $SOURCES_DIR
 git clone --branch $BRANCH --depth 1 $REPOSITORY

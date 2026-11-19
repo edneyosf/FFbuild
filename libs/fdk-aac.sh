@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REPOSITORY="https://github.com/mstorsjo/fdk-aac.git"
-BRANCH="v2.0.3"
+BRANCH="v3.0.0"
 
 cd $SOURCES_DIR
 git clone --branch $BRANCH --depth 1 $REPOSITORY

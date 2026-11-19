@@ -2,7 +2,7 @@
 
 REPOSITORY="https://git.ffmpeg.org/ffmpeg.git"
 NOW=$(date +"%d%m%Y")
-BRANCH="release/$VERSION"
+BRANCH="n$VERSION"
 GREEN="\e[32m"
 RESET="\e[0m"
 

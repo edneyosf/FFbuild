@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REPOSITORY="https://aomedia.googlesource.com/aom"
-BRANCH="v3.14.1"
+BRANCH="v3.15.3"
 
 cd $SOURCES_DIR
 git clone --branch $BRANCH --depth 1 $REPOSITORY
